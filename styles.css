@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+img {
+    max-width: 100%;
+}
