@@ -9,3 +9,7 @@ body {
 img {
     max-width: 100%;
 }
+
+legend {
+    font-size: 1.2 rem;
+}
