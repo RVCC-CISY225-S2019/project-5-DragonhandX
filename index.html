@@ -209,11 +209,22 @@
         <h1>Here is a way to contact me if you wish to, for some reason.</h1>
         <form class="contact" method="POST" action="https://formspree.io/dragonhandii@gmail.com">
             <fieldset>
-                <legend>Just fill in your email and message, then hit the submit button.</legend>
-                <input type="email" name="email"><br>
-                <textarea name="message"></textarea><br>
-                <button type="submit">Submit</button>
+                <legend>Email</legend>
+                <input type="email" name="email">
+                <br>
+                <br>
+                 <label for="message">Message</label>
+                 <br>
+            <textarea name="message" id="message"></textarea>
             </fieldset>
+            <fieldset>
+                <legend>Reply</legend>
+                <input type="radio" name="yes-no" value="Yes" checked> Yes<br>
+                <input type="radio" name=yes-no value="No"> No<br>
+            </fieldset>
+            <br>
+            <br>
+<button type="submit">Send<br></button>
         </form>
     </section>
     <hr>
