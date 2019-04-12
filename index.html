@@ -209,14 +209,17 @@
         <h1>Here is a way to contact me if you wish to, for some reason.</h1>
         <form class="contact" method="POST" action="https://formspree.io/dragonhandii@gmail.com">
             <fieldset>
-                <legend>Email</legend>
+                <legend>Just fill out this area</legend>
+                <label for="email">Email</label>
+                <br>
                 <input type="email" name="email">
                 <br>
                 <br>
                 <fieldset>
-                    <legend>Reply</legend>
-                    <input type="radio" name="yes-no" value="Yes" checked> Yes<br>
-                    <input type="radio" name=yes-no value="No"> No<br>
+                    <legend>Do you want me to reply?</legend>
+                    <input class="Yes-No" type="radio" name="yes-no" value="Yes" checked> Yes<br>
+                    <br>
+                    <input class="Yes-No" type="radio" name=yes-no value="No"> No<br>
                 </fieldset>
                 <br>
                 <label for="message">Message</label>
